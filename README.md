@@ -51,6 +51,7 @@ l.OPT_VIM_1LOG_FUNC_TEXT = 'Bypassed Rule -QH - Service Entry Requir'
 ORDER BY
 h.DOCID, l.OPT_VIM_1LOG_START_DATE_TIME;
 ```
+---
 
 ## 🧱 Project Structure
 service-entry-pipeline/
@@ -64,8 +65,10 @@ service-entry-pipeline/
 ├─ requirements.txt
 ├─ README.md
 └─ .gitignore
+---
 
-⚡ Example Outputs
+## ⚡ Example Outputs
+
 ✅ Email Notification with Attachment
 
 📎 Insert screenshot of Outlook email with attached CSV file here
@@ -78,7 +81,9 @@ service-entry-pipeline/
 
 🗂 Insert screenshot of the CSV opened in Excel showing column headers and sample data
 
-⚙️ Setup
+---
+
+## ⚙️ Setup
 1️⃣ Clone the repo
 git clone https://github.com/YOUR_USERNAME/service-entry-pipeline.git
 cd service-entry-pipeline
@@ -103,7 +108,10 @@ MAIL_FROM=you@example.com
 MAIL_TO=recipient1@example.com, recipient2@example.com
 ⚠️ .env is excluded from version control via .gitignore — never commit credentials.
 
-🧪 Run Locally
+---
+
+## 🧪 Run Locally
+
 python run.py
 Expected output:
 
