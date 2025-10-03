@@ -131,6 +131,7 @@ Logs are written to /logs/YYYYMMDD_LOG_FILE.txt
 
 An email with the CSV attached is sent to recipients
 ```
+---
 
 ## 🕒 Schedule Daily Execution
 
@@ -149,6 +150,7 @@ Action: Run whether user is logged in or not
 
 Settings: Stop after 1 hour, retry on failure
 ```
+---
 
 ## 📨 Email Functionality
 
@@ -162,6 +164,8 @@ Log send attempts and errors
 
 Work with unauthenticated internal relays (port 25)
 
+---
+
 ## 🪵 Logging
 
 ```
@@ -174,27 +178,36 @@ Each run creates a log file in /logs with entries like:
 2025-10-03 14:08:06,345 [INFO] Email send success
 ```
 
-🧠 Tech Stack
+---
 
-🐍 Python 3.10+
+## 🧠 Tech Stack
 
-🧠 oracledb — Oracle database connector
+- 🐍 Python 3.10+
 
-📝 pandas — DataFrame querying & export
+- 🧠 oracledb — Oracle database connector
 
-🔐 python-dotenv — Secure config handling
+- 📝 pandas — DataFrame querying & export
 
-📧 smtplib / EmailMessage — SMTP mailer
+- 🔐 python-dotenv — Secure config handling
 
-🧪 Optional: Demo Mode
+- 📧 smtplib / EmailMessage — SMTP mailer
 
+---
+
+## 🧪 Optional: Demo Mode
+
+```
 You can add a USE_SQLITE=1 flag in .env to run the pipeline without Oracle, using a bundled SQLite file and fake data. (Nice for recruiters to try without DB access.)
+```
 
-📜 License
+---
+
+##📜 License
 
 MIT License — feel free to fork and adapt for your own Oracle reporting pipelines.
 
-🧍 Author
+---
+
+##🧍 Author
 
 Jordan Kitto
-Senior Systems Officer | Data & Automation Enthusiast
