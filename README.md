@@ -50,9 +50,9 @@ WHERE
 l.OPT_VIM_1LOG_FUNC_TEXT = 'Bypassed Rule -QH - Service Entry Requir'
 ORDER BY
 h.DOCID, l.OPT_VIM_1LOG_START_DATE_TIME;
-#
+```
 
-🧱 Project Structure
+## 🧱 Project Structure
 service-entry-pipeline/
 ├─ sql/
 │  └─ service_entry.sql        # SQL executed daily
