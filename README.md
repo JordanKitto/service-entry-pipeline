@@ -54,6 +54,7 @@ h.DOCID, l.OPT_VIM_1LOG_START_DATE_TIME;
 ---
 
 ## 🧱 Project Structure
+```
 service-entry-pipeline/
 ├─ sql/
 │  └─ service_entry.sql        # SQL executed daily
@@ -65,6 +66,7 @@ service-entry-pipeline/
 ├─ requirements.txt
 ├─ README.md
 └─ .gitignore
+```
 ---
 
 ## ⚡ Example Outputs
@@ -85,16 +87,20 @@ service-entry-pipeline/
 
 ## ⚙️ Setup
 1️⃣ Clone the repo
+```
 git clone https://github.com/YOUR_USERNAME/service-entry-pipeline.git
 cd service-entry-pipeline
+```
 
 2️⃣ Create a virtual environment
+```
 python -m venv .venv
 .venv\Scripts\activate   # Windows
 pip install -r requirements.txt
+```
 
 3️⃣ Configure environment variables
-
+```
 Copy .env.example → .env and update with real credentials:
 DB_HOST=your_host
 DB_PORT=1521
@@ -106,24 +112,30 @@ SMTP_SERVER=smtp.example.com
 SMTP_PORT=25
 MAIL_FROM=you@example.com
 MAIL_TO=recipient1@example.com, recipient2@example.com
+```
 ⚠️ .env is excluded from version control via .gitignore — never commit credentials.
 
 ---
 
 ## 🧪 Run Locally
 
+```
 python run.py
 Expected output:
+```
 
+```
 A CSV file is created in /output
 
 Logs are written to /logs/YYYYMMDD_LOG_FILE.txt
 
 An email with the CSV attached is sent to recipients
+```
 
-🕒 Schedule Daily Execution
+## 🕒 Schedule Daily Execution
 
 You can schedule this job using Windows Task Scheduler:
+```
 
 Program: C:\path\to\venv\Scripts\python.exe
 
@@ -136,8 +148,9 @@ Trigger: Daily, e.g. 6:00 AM
 Action: Run whether user is logged in or not
 
 Settings: Stop after 1 hour, retry on failure
+```
 
-📨 Email Functionality
+## 📨 Email Functionality
 
 The send_email helper uses Python’s built-in smtplib and EmailMessage to:
 
@@ -149,8 +162,9 @@ Log send attempts and errors
 
 Work with unauthenticated internal relays (port 25)
 
-🪵 Logging
+## 🪵 Logging
 
+```
 Each run creates a log file in /logs with entries like:
 2025-10-03 14:07:50,071 [INFO] Job started
 2025-10-03 14:07:50,423 [INFO] DB Connection Successful
@@ -158,6 +172,7 @@ Each run creates a log file in /logs with entries like:
 2025-10-03 14:08:05,936 [INFO] Wrote 3517 rows to /output/20251003_QH_ServiceEntry.csv
 2025-10-03 14:08:06,124 [INFO] Attachment added: 20251003_QH_ServiceEntry.csv (145kb)
 2025-10-03 14:08:06,345 [INFO] Email send success
+```
 
 🧠 Tech Stack
 
