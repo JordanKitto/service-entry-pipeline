@@ -1,0 +1,78 @@
+2025-10-03 13:56:01,933 [INFO] Job started
+2025-10-03 13:56:01,934 [INFO] Environment loaded
+2025-10-03 13:56:01,934 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 13:56:02,301 [INFO] DB Connection Successful
+2025-10-03 13:56:18,089 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 13:56:18,113 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 14:04:47,407 [INFO] Job started
+2025-10-03 14:04:47,408 [INFO] Environment loaded
+2025-10-03 14:04:47,408 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 14:04:47,785 [INFO] DB Connection Successful
+2025-10-03 14:05:03,248 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 14:05:03,272 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 14:07:50,070 [INFO] Job started
+2025-10-03 14:07:50,071 [INFO] Environment loaded
+2025-10-03 14:07:50,071 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 14:07:50,423 [INFO] DB Connection Successful
+2025-10-03 14:08:05,912 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 14:08:05,936 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 15:34:43,151 [INFO] Job started
+2025-10-03 15:34:43,152 [INFO] Environment loaded
+2025-10-03 15:34:43,152 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 15:34:43,526 [INFO] DB Connection Successful
+2025-10-03 15:34:57,601 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 15:34:57,625 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 15:39:21,470 [INFO] Job started
+2025-10-03 15:39:21,471 [INFO] Environment loaded
+2025-10-03 15:39:21,471 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 15:39:21,806 [INFO] DB Connection Successful
+2025-10-03 15:39:35,307 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 15:39:35,331 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 15:40:11,412 [INFO] Job started
+2025-10-03 15:40:11,413 [INFO] Environment loaded
+2025-10-03 15:40:11,414 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 15:40:11,738 [INFO] DB Connection Successful
+2025-10-03 15:40:25,524 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 15:40:25,551 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 15:41:05,387 [INFO] Job started
+2025-10-03 15:41:05,390 [INFO] Environment loaded
+2025-10-03 15:41:05,390 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 15:41:05,715 [INFO] DB Connection Successful
+2025-10-03 15:41:19,862 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 15:41:19,885 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 19:57:38,138 [INFO] Job started
+2025-10-03 19:57:38,140 [INFO] Environment loaded
+2025-10-03 19:57:38,140 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 20:01:12,465 [INFO] Job started
+2025-10-03 20:01:12,466 [INFO] Environment loaded
+2025-10-03 20:01:12,466 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 20:01:12,804 [INFO] DB Connection Successful
+2025-10-03 20:01:32,127 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 20:01:32,150 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 20:01:32,155 [INFO] Email compose start: 1 recipient(s)
+2025-10-03 20:01:32,576 [INFO] Email send success
+2025-10-03 20:05:44,330 [INFO] Job started
+2025-10-03 20:05:44,332 [INFO] Environment loaded
+2025-10-03 20:05:44,332 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 20:05:44,704 [INFO] DB Connection Successful
+2025-10-03 20:05:56,174 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 20:05:56,203 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 20:05:56,213 [INFO] Email compose start: 1 recipient(s)
+2025-10-03 20:05:56,641 [INFO] Email send success
+2025-10-03 20:06:54,825 [INFO] Job started
+2025-10-03 20:06:54,827 [INFO] Environment loaded
+2025-10-03 20:06:54,827 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 20:06:55,183 [INFO] DB Connection Successful
+2025-10-03 20:07:06,731 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 20:07:06,757 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 20:07:06,763 [INFO] Email compose start: 1 recipient(s)
+2025-10-03 20:07:07,172 [INFO] Email send success
+2025-10-03 20:10:12,014 [INFO] Job started
+2025-10-03 20:10:12,015 [INFO] Environment loaded
+2025-10-03 20:10:12,015 [INFO] DSN built: oradsssbprod.health.qld.gov.au:2496/FINRPT.DB.HEALTH.QLD.GOV.AU
+2025-10-03 20:10:12,330 [INFO] DB Connection Successful
+2025-10-03 20:10:23,707 [INFO] Query returned 3517 rows and 12 columns
+2025-10-03 20:10:23,735 [INFO] Wrote 3517 rows to C:\Users\kittojor\OneDrive - Queensland Health\A001_Data_Analytics\A0025_Service_Entry_Sheet_Report\output\20251003_QH_ServiceEntry.csv
+2025-10-03 20:10:23,743 [INFO] Email compose start: 1 recipient(s)
+2025-10-03 20:10:23,749 [INFO] Attachment added: 20251003_QH_ServiceEntry.csv (658394 bytes)
+2025-10-03 20:10:24,537 [INFO] Email send success
