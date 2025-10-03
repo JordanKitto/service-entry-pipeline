@@ -73,15 +73,15 @@ service-entry-pipeline/
 
 ✅ Email Notification with Attachment
 
-📎 Insert screenshot of Outlook email with attached CSV file here
+<img width="1116" height="247" alt="Screenshot 2025-10-03 202224" src="https://github.com/user-attachments/assets/8f40fa35-d7bb-460d-9edf-168aad3d394b" />
 
 📊 Daily Log File
 
-📝 Insert screenshot of a log file showing query, write, and email steps
+<img width="926" height="275" alt="logs" src="https://github.com/user-attachments/assets/bb8cc5cb-67a5-4b0f-9198-c919e18eb211" />
 
 📂 Generated CSV File
 
-🗂 Insert screenshot of the CSV opened in Excel showing column headers and sample data
+<img width="2054" height="557" alt="csv" src="https://github.com/user-attachments/assets/a030ae4f-bbe8-43bd-a6a4-c0e3d91445de" />
 
 ---
 
