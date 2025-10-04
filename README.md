@@ -73,15 +73,15 @@ service-entry-pipeline/
 
 ✅ Email Notification with Attachment
 
-<img width="1116" height="247" alt="Screenshot 2025-10-03 202224" src="https://github.com/user-attachments/assets/8f40fa35-d7bb-460d-9edf-168aad3d394b" />
+<img width="1119" height="248" alt="email_notification_ses" src="https://github.com/user-attachments/assets/9c3f6b52-570f-4a9c-a5c7-d72f730d1493" />
 
 📊 Daily Log File
 
-<img width="926" height="275" alt="logs" src="https://github.com/user-attachments/assets/bb8cc5cb-67a5-4b0f-9198-c919e18eb211" />
+<img width="928" height="280" alt="logging_csv_ses" src="https://github.com/user-attachments/assets/e3afc22e-6255-4b79-b1cd-7562ed70747a" />
 
 📂 Generated CSV File
 
-<img width="2054" height="557" alt="csv" src="https://github.com/user-attachments/assets/a030ae4f-bbe8-43bd-a6a4-c0e3d91445de" />
+<img width="1865" height="509" alt="csv_export_ses" src="https://github.com/user-attachments/assets/ff33c0c8-724a-4573-b868-7372c023ba9a" />
 
 ---
 
