@@ -3,7 +3,7 @@ import pathlib
 from dotenv import load_dotenv
 import oracledb
 import pandas as pd
-from datetime import datetime, timedelta, date
+from datetime import datetime, timedelta, date, time
 import logging
 import sys
 import smtplib
@@ -57,6 +57,25 @@ def what_is_due(today: date):
     weekly_due = (today.weekday() == 0) # Monday
     monthly_due = (today.day == 1) # 1st of month
     return weekly_due, monthly_due
+
+
+def weekly_window(today: date):
+    """Previous Monday 00:00 -> This Monday 00:00 (Works only when run on a Monday)"""
+    this_midnight = datetime.combine(today, time.min)
+    start = this_midnight - timedelta(days=7)
+    end = this_midnight
+    return start, end
+    
+
+def monthly_cumlaive_window(today: date, year_start_month: int =1):
+    """Year to date cumulative through the month that just ended.
+        For a run on 1st Nov 2025 -> 01 Jan 2025 00:00 -> 01 Nov 2025 00:00
+    """
+    year_start = date(today.year, year_start_month, 1)
+    start = datetime.combine(year_start, time.min)
+    end = datetime.combine(today, time.min) # Today is the 1st
+    return start, end
+
 
 # Compute start and end date
 def compute_dates(mode):
