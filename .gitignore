@@ -1,0 +1,16 @@
+# venv
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+config/.env
+
+# Logs / Outputs
+logs/
+output/
+
+# OS files
+.DS_Store
+Thumbs.db
+email_sender.py
