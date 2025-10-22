@@ -50,8 +50,11 @@ WHERE
 l.OPT_VIM_1LOG_FUNC_TEXT = 'Bypassed Rule -QH - Service Entry Requir'
 ORDER BY
 h.DOCID, l.OPT_VIM_1LOG_START_DATE_TIME;
+```
+---
 
-🧱 Project Structure
+## 🧱 Project Structure
+```
 service-entry-pipeline/
 ├─ sql/
 │  └─ service_entry.sql        # SQL executed daily
@@ -63,32 +66,41 @@ service-entry-pipeline/
 ├─ requirements.txt
 ├─ README.md
 └─ .gitignore
+```
+---
 
-⚡ Example Outputs
+## ⚡ Example Outputs
+
 ✅ Email Notification with Attachment
 
-📎 Insert screenshot of Outlook email with attached CSV file here
+<img width="1119" height="248" alt="email_notification_ses" src="https://github.com/user-attachments/assets/9c3f6b52-570f-4a9c-a5c7-d72f730d1493" />
 
 📊 Daily Log File
 
-📝 Insert screenshot of a log file showing query, write, and email steps
+<img width="928" height="280" alt="logging_csv_ses" src="https://github.com/user-attachments/assets/e3afc22e-6255-4b79-b1cd-7562ed70747a" />
 
 📂 Generated CSV File
 
-🗂 Insert screenshot of the CSV opened in Excel showing column headers and sample data
+<img width="1865" height="509" alt="csv_export_ses" src="https://github.com/user-attachments/assets/ff33c0c8-724a-4573-b868-7372c023ba9a" />
 
-⚙️ Setup
+---
+
+## ⚙️ Setup
 1️⃣ Clone the repo
+```
 git clone https://github.com/YOUR_USERNAME/service-entry-pipeline.git
 cd service-entry-pipeline
+```
 
 2️⃣ Create a virtual environment
+```
 python -m venv .venv
 .venv\Scripts\activate   # Windows
 pip install -r requirements.txt
+```
 
 3️⃣ Configure environment variables
-
+```
 Copy .env.example → .env and update with real credentials:
 DB_HOST=your_host
 DB_PORT=1521
@@ -100,21 +112,31 @@ SMTP_SERVER=smtp.example.com
 SMTP_PORT=25
 MAIL_FROM=you@example.com
 MAIL_TO=recipient1@example.com, recipient2@example.com
+```
 ⚠️ .env is excluded from version control via .gitignore — never commit credentials.
 
-🧪 Run Locally
+---
+
+## 🧪 Run Locally
+
+```
 python run.py
 Expected output:
+```
 
+```
 A CSV file is created in /output
 
 Logs are written to /logs/YYYYMMDD_LOG_FILE.txt
 
 An email with the CSV attached is sent to recipients
+```
+---
 
-🕒 Schedule Daily Execution
+## 🕒 Schedule Daily Execution
 
 You can schedule this job using Windows Task Scheduler:
+```
 
 Program: C:\path\to\venv\Scripts\python.exe
 
@@ -127,8 +149,10 @@ Trigger: Daily, e.g. 6:00 AM
 Action: Run whether user is logged in or not
 
 Settings: Stop after 1 hour, retry on failure
+```
+---
 
-📨 Email Functionality
+## 📨 Email Functionality
 
 The send_email helper uses Python’s built-in smtplib and EmailMessage to:
 
@@ -140,8 +164,11 @@ Log send attempts and errors
 
 Work with unauthenticated internal relays (port 25)
 
-🪵 Logging
+---
 
+## 🪵 Logging
+
+```
 Each run creates a log file in /logs with entries like:
 2025-10-03 14:07:50,071 [INFO] Job started
 2025-10-03 14:07:50,423 [INFO] DB Connection Successful
@@ -149,28 +176,38 @@ Each run creates a log file in /logs with entries like:
 2025-10-03 14:08:05,936 [INFO] Wrote 3517 rows to /output/20251003_QH_ServiceEntry.csv
 2025-10-03 14:08:06,124 [INFO] Attachment added: 20251003_QH_ServiceEntry.csv (145kb)
 2025-10-03 14:08:06,345 [INFO] Email send success
+```
 
-🧠 Tech Stack
+---
 
-🐍 Python 3.10+
+## 🧠 Tech Stack
 
-🧠 oracledb — Oracle database connector
+- 🐍 Python 3.10+
 
-📝 pandas — DataFrame querying & export
+- 🧠 oracledb — Oracle database connector
 
-🔐 python-dotenv — Secure config handling
+- 📝 pandas — DataFrame querying & export
 
-📧 smtplib / EmailMessage — SMTP mailer
+- 🔐 python-dotenv — Secure config handling
 
-🧪 Optional: Demo Mode
+- 📧 smtplib / EmailMessage — SMTP mailer
 
+---
+
+## 🧪 Optional: Demo Mode
+
+```
 You can add a USE_SQLITE=1 flag in .env to run the pipeline without Oracle, using a bundled SQLite file and fake data. (Nice for recruiters to try without DB access.)
+```
 
-📜 License
+---
+
+##📜 License
 
 MIT License — feel free to fork and adapt for your own Oracle reporting pipelines.
 
-🧍 Author
+---
+
+##🧍 Author
 
 Jordan Kitto
-Senior Systems Officer | Data & Automation Enthusiast
